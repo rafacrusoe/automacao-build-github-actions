@@ -50,4 +50,4 @@ Depois da primeira execucao bem-sucedida, a imagem fica disponivel em:
 ghcr.io/rafacrusoe/automacao-build-github-actions:latest
 ```
 
-Cada build tambem recebe uma tag imutavel no formato `sha-<hash-curto>`.
+Cada build tambem recebe uma tag imutavel com o hash completo do commit.
