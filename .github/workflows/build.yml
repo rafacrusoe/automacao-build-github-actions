@@ -1,0 +1,13 @@
+name: Automacao de Build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simular build inicial
+        run: echo "simulando um docker build no GitHub Actions"
